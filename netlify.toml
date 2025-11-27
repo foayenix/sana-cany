@@ -1,7 +1,7 @@
 [build]
-  base = "apps/web"
-  publish = "public"
-  command = ""
+  base = "apps/mobile"
+  publish = "dist"
+  command = "npx expo export -p web"
 
 [[redirects]]
   from = "/*"
